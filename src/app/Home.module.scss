@@ -1,0 +1,10 @@
+@import '~colors.scss';
+
+.container {
+    width: 636px;
+    border: 1px solid $white;
+    border-radius: 24px;
+    margin: 10vh auto;
+    padding: 32px;
+    min-height: 300px;
+}
