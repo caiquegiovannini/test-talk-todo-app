@@ -1,6 +1,11 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "indent": ["error", 4]
+    "indent": ["error", 4],
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "exports": "always-multiline"
+    }]
   }
 }
