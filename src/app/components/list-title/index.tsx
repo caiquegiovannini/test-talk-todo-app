@@ -6,8 +6,8 @@ interface ListTitleProps {
 
 export function ListTitle({title}: ListTitleProps) {
     return (
-        <div className={styles.container}>
+        <header className={styles.container}>
             <h1 className={styles.title}>{title}</h1>
-        </div>
+        </header>
     )
 };
