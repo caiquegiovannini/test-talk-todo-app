@@ -1,6 +1,6 @@
 import styles from './styles.module.scss'
 
-export function List() {
+export function ToDoList() {
     return (
         <main></main>
     )
