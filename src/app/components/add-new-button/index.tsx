@@ -2,6 +2,6 @@ import styles from './styles.module.scss'
 
 export function AddNewButton() {
     return (
-        <button>+</button>
+        <button className={styles.addNewButton}>+</button>
     )
 };
