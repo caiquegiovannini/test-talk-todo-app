@@ -1,4 +1,9 @@
-@mixin clickButton {
+@mixin clickButton($level) {
+    $levels: (
+        "soft": 95%,
+        "hard": 80%
+    );
+
     transition: transform 0.05s;
-    transform: scale(80%);
+    transform: scale(map-get($levels, $level));
 }

@@ -15,7 +15,7 @@
     }
 
     &:active {
-        @include clickButton();
+        @include clickButton("hard");
     }
 
     &[data-state="checked"] {
