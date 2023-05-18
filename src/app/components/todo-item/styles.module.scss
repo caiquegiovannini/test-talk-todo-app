@@ -1,0 +1,21 @@
+@import '~colors.scss';
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $dark;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 1px solid $dark;
+    border-radius: 16px;
+
+    .description {
+        font-size: 1.2rem;
+        color: $white;
+    }
+}
+
+.checked {
+    border: 1px solid goldenrod;
+}
