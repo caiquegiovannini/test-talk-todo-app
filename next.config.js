@@ -4,11 +4,12 @@ const path = require('path');
 const nextConfig = {
     webpack(config) {
         config.resolve.alias = {
-          ...config.resolve.alias,
-          "colors.scss": path.resolve(__dirname, "./src/styles/colors.scss"),
+            ...config.resolve.alias,
+            "colors.scss": path.resolve(__dirname, "./src/styles/colors.scss"),
+            "mixins.scss": path.resolve(__dirname, "./src/styles/mixins.scss"),
         }
         return config
-      }
+    },
 }
 
 module.exports = nextConfig
