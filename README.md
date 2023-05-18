@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Requirements
 
-Node v18.13.0
+Node v18
 
 ## Getting Started
 
