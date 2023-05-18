@@ -1,0 +1,4 @@
+@mixin clickButton {
+    transition: transform 0.05s;
+    transform: scale(80%);
+}
